@@ -1,67 +1,56 @@
-margint padding:
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-bex-sizingi sarcer-bes
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-body
+.gif {
+    height: 100%;
+    width: 100%;
+}
 
-dtaplay: fles
-
-justify-content: center;
-
-atige stems: center; ints-height: 1e
-
-background w
-
-font-family: Verdana, Games, Tahoma, sans-serif;
-
-Seight: 100%; utath: 100%;
-
-text-aliom centers font-size:
-
-celor: #944361
-
-nargin: 150x
-
-CSS
-
-Code Sphere
-
-+
-
-υτότη: 100%;
-
-height:
-
-Utaplay: flex
-
-justify-content: center;
-
-margin-top: 5px;
-
-button (
-
-poitus absolute;
-
-width: 150px;
-
-height: inherit; colors witte; fants 1.2m;
-
-border-radius:
-
-outline: none;
-
-corsor: pointer; box-shadow: 2px 3px gray) border: 2px solid #ed
-
-font-size: 12
-
-buttoninth-chil
-
-nargin-left: 200x background: #4453;
-
-buttmunth-child(2)(
-
-nargin-right: 200px
-
-backgrounds u
-
-color: #94458;
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+.btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    font-size: 1.2em;
+}
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #e94d58;
+}
+button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #e94d58;
+}
